@@ -54,9 +54,6 @@ miau-vn, vn
 ### Temas
 themes, theme <id>
 
-### Admin
-admin (senha: Penny)
-
 ---
 
 ## Enigmas
