@@ -1,0 +1,44 @@
+/* src/global.css
+   Estilizacao global (apenas web). Scrollbar igual ao jogo React. */
+
+:root {
+  --k1tty-bg: #00272B;
+  --k1tty-bg-deep: #001519;
+  --k1tty-command: #C7EF00;
+  --k1tty-border: #95C623;
+  --k1tty-text: #FFFBFA;
+  --k1tty-dim: #5a7a5a;
+  --k1tty-error: #EF6461;
+  --k1tty-warning: #E8A87C;
+}
+
+/* Webkit (Chrome, Edge, Safari, Expo Web) */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--k1tty-bg-deep);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--k1tty-border);
+  border-radius: 6px;
+  border: 2px solid var(--k1tty-bg-deep);
+  transition: background-color 120ms ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--k1tty-command);
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--k1tty-bg-deep);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--k1tty-border) var(--k1tty-bg-deep);
+}

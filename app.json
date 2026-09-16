@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "k1tty",
+    "slug": "k1tty-native",
+    "version": "1.0.0",
+    "orientation": "default",
+    "scheme": "k1tty",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#001519",
+    "splash": {
+      "backgroundColor": "#001519",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.k1tty.native"
+    },
+    "android": {
+      "package": "com.k1tty.native",
+      "softwareKeyboardLayoutMode": "resize",
+      "adaptiveIcon": {
+        "backgroundColor": "#00272B"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "assetBundlePatterns": ["**/*"]
+  }
+}

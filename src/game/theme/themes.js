@@ -1,0 +1,44 @@
+// src/game/theme/themes.js
+// Portado 1:1 do web (src/data/themes.js).
+
+export const THEMES = [
+  { id: 'neon', name: 'Neon', colors: { bg: '#00272B', bgDeep: '#001519', bgGlow: '#003338', bgPanel: '#001a1d', bgHeader: '#003338', text: '#FFFBFA', command: '#C7EF00', border: '#95C623', error: '#EF6461', dim: '#5a7a5a', warning: '#E8A87C' } },
+  { id: 'matrix', name: 'Matrix', colors: { bg: '#000000', bgDeep: '#000000', bgGlow: '#001a00', bgPanel: '#0a0f0a', bgHeader: '#001a00', text: '#00FF41', command: '#00FF41', border: '#008F11', error: '#FF2222', dim: '#004400', warning: '#FFFF00' } },
+  { id: 'amber', name: 'Amber', colors: { bg: '#1a0a00', bgDeep: '#000000', bgGlow: '#2a1500', bgPanel: '#1f0f00', bgHeader: '#2a1500', text: '#FFB000', command: '#FFB000', border: '#C88A00', error: '#FF4400', dim: '#6b4400', warning: '#FFCC00' } },
+  { id: 'dracula', name: 'Dracula', colors: { bg: '#282a36', bgDeep: '#1e1f29', bgGlow: '#383a4c', bgPanel: '#21222c', bgHeader: '#44475a', text: '#f8f8f2', command: '#bd93f9', border: '#6272a4', error: '#ff5555', dim: '#6272a4', warning: '#ffb86c' } },
+  { id: 'nord', name: 'Nord', colors: { bg: '#2e3440', bgDeep: '#242933', bgGlow: '#3b4252', bgPanel: '#2b303b', bgHeader: '#3b4252', text: '#eceff4', command: '#88c0d0', border: '#5e81ac', error: '#bf616a', dim: '#4c566a', warning: '#ebcb8b' } },
+  { id: 'cyberpunk', name: 'Cyberpunk', colors: { bg: '#0d0221', bgDeep: '#000000', bgGlow: '#1a0b3a', bgPanel: '#12042c', bgHeader: '#1a0b3a', text: '#f9e900', command: '#00fff9', border: '#ff2a6d', error: '#ff2a6d', dim: '#6b4c6b', warning: '#ff8b00' } },
+  { id: 'solarized', name: 'Solarized', colors: { bg: '#002b36', bgDeep: '#001f27', bgGlow: '#073642', bgPanel: '#073642', bgHeader: '#0d4450', text: '#93a1a1', command: '#b58900', border: '#586e75', error: '#dc322f', dim: '#586e75', warning: '#cb4b16' } },
+  { id: 'coquette', name: 'Coquette', colors: { bg: '#1a0d14', bgDeep: '#0d0510', bgGlow: '#2a1420', bgPanel: '#23111c', bgHeader: '#3a1f2c', text: '#fce8f0', command: '#ffb3d1', border: '#e07a9d', error: '#ff5c7a', dim: '#8a5f70', warning: '#f4b393' } },
+  { id: 'win95', name: 'Windows 95', colors: { bg: '#000000', bgDeep: '#000000', bgGlow: '#000040', bgPanel: '#1a1a1a', bgHeader: '#000080', text: '#c0c0c0', command: '#ffff00', border: '#808080', error: '#ff0000', dim: '#606060', warning: '#ff8000' } },
+  { id: 'frutiger', name: 'Frutiger Aero', colors: { bg: '#a8d8e8', bgDeep: '#6ba8c0', bgGlow: '#c0e8f0', bgPanel: '#b8dce8', bgHeader: '#88c0d4', text: '#052030', command: '#007850', border: '#58a0b8', error: '#d83020', dim: '#4a7a8a', warning: '#e08000' } },
+  { id: 'vaporwave', name: 'Vaporwave', colors: { bg: '#1a0a2e', bgDeep: '#0d0418', bgGlow: '#2a1050', bgPanel: '#2a1050', bgHeader: '#3d1a6a', text: '#f0c5ff', command: '#ff71ce', border: '#01cdfe', error: '#ff3b3b', dim: '#6a4a7a', warning: '#ffb86c' } },
+  { id: 'gruvbox', name: 'Gruvbox', colors: { bg: '#282828', bgDeep: '#1d2021', bgGlow: '#3c3836', bgPanel: '#32302f', bgHeader: '#3c3836', text: '#ebdbb2', command: '#fabd2f', border: '#b8bb26', error: '#fb4934', dim: '#928374', warning: '#fe8019' } },
+  { id: 'tokyo', name: 'Tokyo Night', colors: { bg: '#1a1b26', bgDeep: '#16161e', bgGlow: '#24283b', bgPanel: '#1f2335', bgHeader: '#24283b', text: '#c0caf5', command: '#7aa2f7', border: '#565f89', error: '#f7768e', dim: '#565f89', warning: '#e0af68' } },
+  { id: 'catppuccin', name: 'Catppuccin', colors: { bg: '#1e1e2e', bgDeep: '#181825', bgGlow: '#313244', bgPanel: '#24243a', bgHeader: '#313244', text: '#cdd6f4', command: '#cba6f7', border: '#585b70', error: '#f38ba8', dim: '#6c7086', warning: '#fab387' } },
+  { id: 'sunset', name: 'Sunset', colors: { bg: '#1a0a15', bgDeep: '#0f0508', bgGlow: '#3a1510', bgPanel: '#2a1215', bgHeader: '#4a1a1f', text: '#ffe4c4', command: '#ff9d4d', border: '#d4623a', error: '#e63946', dim: '#8b5a52', warning: '#ffcc00' } },
+  { id: 'monochrome', name: 'Monochrome', colors: { bg: '#0a0a0a', bgDeep: '#000000', bgGlow: '#1a1a1a', bgPanel: '#141414', bgHeader: '#1f1f1f', text: '#e0e0e0', command: '#ffffff', border: '#666666', error: '#c0c0c0', dim: '#555555', warning: '#909090' } },
+  { id: 'ubuntu', name: 'Ubuntu', colors: { bg: '#2c001e', bgDeep: '#1a000e', bgGlow: '#3d0a2a', bgPanel: '#300a24', bgHeader: '#5e2750', text: '#ffffff', command: '#e95420', border: '#772953', error: '#ff5555', dim: '#8a5a7a', warning: '#f5b642' } },
+  { id: 'macos', name: 'macOS', colors: { bg: '#1c1c1e', bgDeep: '#0d0d0e', bgGlow: '#2c2c2e', bgPanel: '#2c2c2e', bgHeader: '#3a3a3c', text: '#f2f2f7', command: '#0a84ff', border: '#48484a', error: '#ff453a', dim: '#8e8e93', warning: '#ff9f0a' } },
+  { id: 'arch', name: 'Arch Linux', colors: { bg: '#0d0d0d', bgDeep: '#000000', bgGlow: '#1a1a1a', bgPanel: '#1a1a1a', bgHeader: '#262626', text: '#ffffff', command: '#1793d1', border: '#1793d1', error: '#e04c4c', dim: '#4a4a4a', warning: '#f0a000' } },
+  { id: 'debian', name: 'Debian', colors: { bg: '#1a0a0a', bgDeep: '#0a0202', bgGlow: '#2a0f0f', bgPanel: '#2a1515', bgHeader: '#3a1a1a', text: '#f5f5f5', command: '#d70a53', border: '#a80030', error: '#d70a53', dim: '#6a5050', warning: '#f0a000' } },
+  { id: 'fedora', name: 'Fedora', colors: { bg: '#0a1420', bgDeep: '#050a10', bgGlow: '#102030', bgPanel: '#0f2030', bgHeader: '#142a40', text: '#ffffff', command: '#51a2da', border: '#294172', error: '#ee0000', dim: '#4a5a6a', warning: '#f0a000' } },
+  { id: 'mint', name: 'Linux Mint', colors: { bg: '#101a10', bgDeep: '#081008', bgGlow: '#1a2a1a', bgPanel: '#1a2a1a', bgHeader: '#254025', text: '#e8f0e8', command: '#87cf3e', border: '#5a8a30', error: '#e04c4c', dim: '#4a5a4a', warning: '#f0a000' } },
+  { id: 'popos', name: 'Pop!_OS', colors: { bg: '#1a1512', bgDeep: '#0a0805', bgGlow: '#2a1f18', bgPanel: '#2a201a', bgHeader: '#3a2a20', text: '#f5f0e8', command: '#faa41a', border: '#d17300', error: '#cc0000', dim: '#5a4a3a', warning: '#ffcc00' } },
+  { id: 'kali', name: 'Kali', colors: { bg: '#000000', bgDeep: '#000000', bgGlow: '#0a1a2a', bgPanel: '#0a1018', bgHeader: '#0f1a2a', text: '#c0c0c0', command: '#1793d1', border: '#1a3a5a', error: '#e04c4c', dim: '#3a4a5a', warning: '#f0a000' } },
+  { id: 'commodore', name: 'Commodore 64', colors: { bg: '#40318d', bgDeep: '#2a1f5e', bgGlow: '#5040a0', bgPanel: '#352879', bgHeader: '#5040a0', text: '#a5a5ff', command: '#7869c4', border: '#7869c4', error: '#ff6b6b', dim: '#40407a', warning: '#ffff80' } },
+  { id: 'paper', name: 'Paper', colors: { bg: '#f5f2e8', bgDeep: '#e8e4d8', bgGlow: '#faf7f0', bgPanel: '#e8e4d8', bgHeader: '#d8d4c8', text: '#1a1a1a', command: '#1a1a1a', border: '#b5a890', error: '#cc3333', dim: '#7a7060', warning: '#cc8800' } },
+  { id: 'github', name: 'GitHub Dark', colors: { bg: '#0d1117', bgDeep: '#010409', bgGlow: '#161b22', bgPanel: '#161b22', bgHeader: '#21262d', text: '#c9d1d9', command: '#58a6ff', border: '#30363d', error: '#f85149', dim: '#8b949e', warning: '#d29922' } },
+  { id: 'discord', name: 'Discord', colors: { bg: '#2c2f33', bgDeep: '#1e2124', bgGlow: '#36393f', bgPanel: '#23272a', bgHeader: '#36393f', text: '#ffffff', command: '#7289da', border: '#99aab5', error: '#f04747', dim: '#99aab5', warning: '#faa61a' } },
+  { id: 'spotify', name: 'Spotify', colors: { bg: '#121212', bgDeep: '#000000', bgGlow: '#1a1a1a', bgPanel: '#181818', bgHeader: '#282828', text: '#ffffff', command: '#1db954', border: '#1db954', error: '#e22134', dim: '#535353', warning: '#ffa500' } },
+  { id: 'onedark', name: 'One Dark', colors: { bg: '#282c34', bgDeep: '#1e2127', bgGlow: '#2c313a', bgPanel: '#21252b', bgHeader: '#2c313a', text: '#abb2bf', command: '#61afef', border: '#3e4451', error: '#e06c75', dim: '#5c6370', warning: '#e5c07b' } },
+  { id: 'latte', name: 'Latte', colors: { bg: '#eff1f5', bgDeep: '#e6e9ef', bgGlow: '#dce0e8', bgPanel: '#e6e9ef', bgHeader: '#ccd0da', text: '#4c4f69', command: '#8839ef', border: '#bcc0cc', error: '#d20f39', dim: '#8c8fa1', warning: '#df8e1d' } },
+  { id: 'coffee', name: 'Coffee', colors: { bg: '#1a120a', bgDeep: '#0f0a05', bgGlow: '#2a1a10', bgPanel: '#2a1a10', bgHeader: '#3a2a1a', text: '#f0e6d2', command: '#d4a373', border: '#8a5a3a', error: '#d44a3a', dim: '#6a5030', warning: '#e0a050' } },
+  { id: 'ghost', name: 'Ghost', colors: { bg: '#f5f5f5', bgDeep: '#f3f3f3', bgGlow: '#f5f5f5', bgPanel: '#f5f5f5', bgHeader: '#f0f0f0', text: '#f0f0f0', command: '#efefef', border: '#ececec', error: '#f0f0f0', dim: '#ebebeb', warning: '#f0f0f0' } },
+];
+
+export const DEFAULT_THEME_ID = 'neon';
+
+export function getThemeById(id) {
+  return THEMES.find(t => t.id === id) || THEMES[0];
+}
